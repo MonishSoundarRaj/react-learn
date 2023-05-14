@@ -1,11 +1,12 @@
 import './App.css';
 import { Brand, CTA, Navbar } from './components';
 import { Header, Footer, Possibility, Features, WhatGPT3, Blog} from './container'
+import './App.css'
 
 function App(){
   return (
     <div className='App'>
-      <div className='gradient_bg'>
+      <div className='gradient__bg'>
         <Navbar></Navbar>
         <Header></Header>
       </div>
@@ -17,6 +18,5 @@ function App(){
       <Blog></Blog>
       <Footer></Footer>
     </div>
-  )
-  }
+  )}
 export default App;
