@@ -1,0 +1,61 @@
+.gpt3__CTA-container{
+    font-family: var(--font-family);
+    display: flex;
+    justify-content: space-between;
+    margin: 6rem 10rem;
+    height: 172.65px;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 0rem 2.5rem;
+    border-radius: 10px;
+
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(94deg, rgba(174, 103, 250, 1) 0%, rgba(244, 152, 103, 1) 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(94deg, rgba(174, 103, 250, 1) 0%, rgba(244, 152, 103, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(94deg, rgba(174, 103, 250, 1) 0%, rgba(244, 152, 103, 1) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F49867', endColorstr='#AE67FA', GradientType=0 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(94deg, rgba(174, 103, 250, 1) 0%, rgba(244, 152, 103, 1) 100%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(94deg, rgba(174, 103, 250, 1) 0%, rgba(244, 152, 103, 1) 100%);
+
+}
+
+.gpt3__CTA-container-left{
+    color: black;
+}
+
+.gpt3__CTA-container-left p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.7rem;
+    line-height: 2rem;
+}
+
+.gpt3__CTA-container-left h1{
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.78rem;
+  line-height: 3rem;  
+}
+
+.gpt3__CTA-container-right button{
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    width: 189.14px;
+    height: 59.4px;
+    background: black;
+    border-radius: 40px;
+    border: none;
+}
