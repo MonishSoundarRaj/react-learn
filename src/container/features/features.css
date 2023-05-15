@@ -1,0 +1,39 @@
+.gpt3__features-container{
+  display: flex;
+  /* width: 100%; */
+  font-family: var(--font-family);
+  margin: 6rem 10rem;
+  justify-content: space-between;
+
+}
+.gpt3__features-container-left h1{
+    /* background: The background property is a shorthand property that allows you to set multiple background-related properties at once, such as background-color, background-image, background-repeat, background-position, etc. It provides a way to set various background properties in a single declaration. For example: */
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 45px;
+}
+
+.gpt3__features-container-left p{
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #FF8A71;
+    margin-top: 2rem;
+}
+.gpt3__features-container-right-content{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.gpt3__features-container-right-content .gpt3__features-container__feature-title{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+
