@@ -1,0 +1,62 @@
+/* align-self: center 
+flex-basis - width of a item
+order
+flex-shrink if 0 does not shrink a container at all
+difference between align-items and text-align
+*/
+
+.gpt3__footer-container{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-family);
+    background: #031B34;
+    text-decoration: none;
+}
+
+.gpt3__footer-container-heading{
+    display: flex;
+    flex-direction: column;
+    margin: 6rem 0;
+    align-items: center;
+    gap: 3rem; 
+    text-align: center;
+    color: white;
+}
+
+.gpt3__footer-container-heading h1{
+    font-size: 45px;
+}
+
+.gpt3__footer-container-heading p{
+    cursor: pointer;
+}
+
+.gpt3__footer-container-content{
+    display: flex;
+    margin: 0rem 10rem;
+    justify-content: space-between;
+    color: white;
+}
+
+.gpt3__footer-container-content-links ul li,
+.gpt3__footer-container-content-company ul li,
+.gpt3__footer-container-content-get-in-touch li{
+    list-style-type: none;
+    margin-top: 1rem;
+}
+
+.gpt3__footer-container-content-logo{
+    display: flex;
+}
+
+.gpt3__footer-container-copy-rights{
+    color: white;
+    text-align: center;
+    /* top right bottom left */
+    margin: 3rem 0rem 0rem 0rem;
+}
+
+
+
+
+

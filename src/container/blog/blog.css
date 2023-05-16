@@ -1,0 +1,31 @@
+.gpt3__blog-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: var(--font-family);
+    margin: 6rem 10rem;
+}
+
+.gpt3__blog-container-heading h1{
+    font-size: 50px;
+    margin-bottom: 4rem;
+    text-align: left;
+}
+
+.gpt3__blog-container-content{
+    display: flex;
+
+}
+
+.gpt3__blog-container-content-groupA{
+    flex: 0.45;
+    margin-right: 2rem;
+}
+
+.gpt3__blog-container-content-groupB{
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+}
+
